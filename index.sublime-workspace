@@ -1,0 +1,238 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"h1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Install Package Control"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/admin.admin-VAIO/Desktop/Project1/index.html",
+		"/D/Movies/A Christmas Carol (2009)/Internet Download Manager (IDM) v6.41 Build 3 Portable Cracked [NEW]/Torrent downloaded from Flashtorrents.org.txt",
+		"/D/Movies/50 Projects In 50 Days - HTML, CSS & JavaScript/[TGx]Downloaded from torrentgalaxy.to .txt",
+		"/C/Users/admin.admin-VAIO/AppData/Local/Temp/Rar$DIa0.589/How to Install.txt",
+		"/D/textAnalysis/CodeR/Rdoc.txt",
+		"/D/Sumit/R/nui1.R",
+		"/C/Users/admin.admin-VAIO/AppData/Roaming/Sublime Text 3/Packages/User/Chrome.sublime-build",
+		"/D/Sumit/R/UNI.R",
+		"/D/textAnalysis/CodeR/python_code",
+		"/C/Users/admin.admin-VAIO/Downloads/Wifi password using python (1).py",
+		"/C/Users/admin.admin-VAIO/Downloads/WiFi Passwords Source Code python.coder_.py",
+		"/D/Sumit/R/Pred_Inter/opt.R",
+		"/C/Users/admin.admin-VAIO/Downloads/Jb non parametric Regression.R",
+		"/D/Sumit/R/Research/FASA-main/FASA_logistic.R",
+		"/C/AP/simulateddevice.py",
+		"/F/UNI.R",
+		"/D/Microsoft.Windows.7.Ultimate.SP1.x86.Integrated.August.2014-Maherz -=Teamos=-/upload by Hell paradise.txt",
+		"/D/Sumit/R/Research/FASA-main/Pred.txt",
+		"/C/Users/admin.admin-VAIO/Desktop/R pro/sql",
+		"/C/Users/admin.admin-VAIO/Desktop/R_practical.txt",
+		"/C/Users/admin.admin-VAIO/Desktop/R_practical/R_output",
+		"/C/Users/admin.admin-VAIO/Downloads/R_practical.txt",
+		"/C/Users/admin.admin-VAIO/Desktop/R pro/R_Practical",
+		"/D/textAnalysis/CodeR/sas",
+		"/D/textAnalysis/CodeR/indian_polity",
+		"/D/textAnalysis/CodeR/indian history",
+		"/C/Users/admin.admin-VAIO/Desktop/R_practical/R_practical.txt",
+		"/C/Users/admin.admin-VAIO/Downloads/Rproblems.R",
+		"/C/Users/admin.admin-VAIO/Desktop/R_practical/Rproblems.R",
+		"/C/Users/admin.admin-VAIO/Downloads/R_practical/U_rpractical.R",
+		"/C/Users/admin.admin-VAIO/Downloads/R_Practical.R",
+		"/C/Users/admin.admin-VAIO/Desktop/R_pro.txt",
+		"/C/Users/admin.admin-VAIO/AppData/Local/Temp/R_Practical.R",
+		"/C/Users/admin.admin-VAIO/AppData/Local/Temp/Rar$DIa0.714/Rproblems.R",
+		"/C/Users/admin.admin-VAIO/Desktop/R_practical/R_problem.R",
+		"/C/Users/admin.admin-VAIO/Downloads/WebUI.txt",
+		"/C/Users/admin.admin-VAIO/Desktop/output.txt",
+		"/C/Users/admin.admin-VAIO/Downloads/archive/marketing_campaign.csv",
+		"/C/Users/admin.admin-VAIO/Documents/DriveCars.R",
+		"/C/Users/admin.admin-VAIO/Documents/int",
+		"/D/textAnalysis/CodeR/textstep1.R",
+		"/D/textAnalysis/Data/lemmatization-en.txt",
+		"/C/Users/admin.admin-VAIO/Downloads/kp.log",
+		"/C/Users/admin.admin-VAIO/Documents/doc_TCS",
+		"/D/textAnalysis/Data/abbreviations .txt",
+		"/D/textAnalysis/Data/abbreviate.txt",
+		"/C/Users/admin.admin-VAIO/Documents/Doc_R.txt",
+		"/C/Users/admin.admin-VAIO/Documents/anova",
+		"/D/textAnalysis/CodeR/demo1.R",
+		"/D/textAnalysis/Data/stopwords.txt",
+		"/D/textAnalysis/Data/Twitter-sentiment-self-drive-DFE.csv",
+		"/D/textAnalysis/Data/sentimentAnalysis.R",
+		"/C/Users/admin.admin-VAIO/Documents/abbreviations .txt",
+		"/C/Users/admin.admin-VAIO/Desktop/R pro/archive/twitter.csv",
+		"/C/Users/admin.admin-VAIO/Documents/kachu.txt",
+		"/C/Users/admin.admin-VAIO/Documents/azure"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

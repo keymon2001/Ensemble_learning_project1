@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="body">
+    <br>
+    &nbsp;&nbsp;Description:
+    <br>
+    <textarea id="stackoverflow" name="stackoverflow_review" rows="20" cols="180">   
+       {% for line in b_lines %}
+          {{ line }}
+       {% endfor %}
+    </textarea>
+    </div>
+
+
+<title>Describe plot</title>
+<h1> Describe some plot related to bank client</h1>
+<head>
+<h2>Boxplot</h2>
+</head>
+<body>
+
+    <div class="card">
+    <img src="{{ url_for('static', filename='boxplot.png') }}" alt="boxplot" style="width:50%">
+    <div class="container">
+      <h3><b>box plot on age of bank client</b></h4>
+      <p>Box plot regarding age. It represents the distribution by age of client of bank who  will be  subscribe (yes/no) a term deposit (variable y).
+        Age column has some outliers. The median age is about 39 years. There are some customers above 70 years of age.
+      </p>
+    </div>
+    </div> 
+ <head><h2 >Countplot on job </h2></head>
+ <div class="card">
+   <img alt="countplot" src="{{ url_for('static', filename='job.png') }}" style="width:50%">
+   <div class="container">
+     <h3><b>count plot on job of bank client</b></h4>
+      <p>
+        Job : type of job (categorical: 'admin.', 'blue-collar', 'entrepreneur', 'housemaid', 'management', 
+        'retired', 'self-employed', 'services', 'student', 'technician', 'unemployed', 'unknown')
+      </p>
+      <p>each unique job is represented on the x-axis, and the count of occurrences of each job is represented on the y-axis. 
+        The data variable should contain your dataset,and 'job' should be the column name in your dataset that contains the job information.
+       </p>
+   </div>
+ </div>
+  <head><h2>marital status</h2></head>
+ <div class="card">
+   <img alt="countplot of marital" src="{{ url_for('static', filename='marital.png') }}" style="width:40%">
+   <div class="container">
+     <h3><b>count plot on marital status of bank client</b></h4>
+      <p>
+        Marital : marital status (categorical: 'divorced', 'married', 'single', 'unknown' ; note: 'divorced' means divorced or widowed)
+     </p>
+      <p>
+        each unique  marital status is represented on the x-axis, and the count of occurrences of each  marital status is represented on the y-axis. 
+        The data variable should contain your dataset,and ' marital status' should be the column name in your dataset that contains the  marital status information.</p>
+   </div>
+ </div> 
+ <head>
+   <h2 >education status</h2>
+  </head>
+ <div class="card">
+   <img alt="countplot of education" src="{{ url_for('static', filename='education.png') }}" style="width:50%">
+   <div class="container">
+     <h3><b>count plot on marital status of bank client</b></h4>
+     <p>
+       Marital : marital status (categorical: 'divorced', 'married', 'single', 'unknown' ; note: 'divorced' means divorced or widowed)
+     </p>
+     <p>
+       each unique  marital status is represented on the x-axis, and the count of occurrences of each  marital status is represented on the y-axis. 
+       The data variable should contain your dataset,and ' marital status' should be the column name in your dataset that contains the  marital status information.
+      </p>
+   </div>
+ </div> 
+ <head>
+    <h2> housing loan status</h2>
+ </head>
+ <div class="card">
+   <img alt="countplot of house" src="{{ url_for('static', filename='house.png') }}" style="width:40%">
+   <div class="container">
+     <h3><b>count plot on loan status of bank client</b></h4>
+      <p>
+        Housing: has housing loan? (categorical: 'no', 'yes', 'unknown')
+      </p>
+   </div>
+ </div> 
+ <head>
+   <h2>the client subscribed a term deposit</h2>
+ <head>
+ <div class="card">
+      <img alt="countplot of target" src="{{ url_for('static', filename='target.png') }}" style="width:40%">
+     <div class="container">
+       <h3><b>count plot on a term deposit status of bank client</b></h4>
+          <p> 
+             has the client subscribed a term deposit? (binary: 'yes', 'no')
+           </p>
+     </div>
+ </div> 
+ <head>
+    <h2>Jobs with the client subscribed</h2>
+ </head>
+ <div class="card">
+   <img alt="pie plot" src="{{ url_for('static', filename='pie.png') }}" style="width:50%">
+   <div class="container">
+     <h3><b>pie plot on Jobs with the client subscribed</b></h4>
+       <p> has the client subscribed a term deposit respect to their job status </p>
+   </div>
+ </div>
+ <head>
+   <h2>contact communication type</h2>
+ </head>
+ <div class="card">
+   <img alt="countplot of contact" src="{{ url_for('static', filename='decission_tree.png') }}" style="width:50%">
+   <div class="container">
+     <h3><b>count plot on contact communication of bank client</b></h4>
+     <p>contact communication type (categorical:'cellular','telephone')</p>
+   </div> 
+ </div>
+ 
+ <div align="center">
+   <div class=page>
+      <h1>conclusion from various model</h1>
+      {% for table in tables %}
+        <h2>{{titles[loop.index]}}</h2>
+        {{ table|safe }}
+      {% endfor %}
+    </div>
+ </div>
+                 
+</body>
+</html> 

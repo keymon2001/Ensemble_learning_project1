@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <link rel="stylesheet" href='style.css'/>
+  <title>Ensemble Learning</title>
+</head>
+
+<body>
+
+  <div style="text-align: center;" class="wrap" >
+    <img alt="Ensemble" src="{{url_for('static', filename='ensLogo.png')}}" width="250px" class="image"/>
+    <form action="{{ url_for('view') }}" method="POST" enctype="multipart/form-data">
+      <input type="url" name="text" value="" required class="search" placeholder="Please paste data URL link here!">
+      <input type="submit" name="submit" class="submit" value="Search">
+    </form>
+  </div>
+
+  <!-- logo with tag -->
+  <div class="card">
+    <div class="content">
+      <h1 style="color:green; padding-top:10px;">
+        What Is Ensemble?
+      </h1>
+      <b>
+        An ensemble model is a machine learning model that combines the predictions of multiple individual models to make a final prediction. 
+        The idea behind ensemble modeling is that by combining the strengths of different models, it is possible to improve overall prediction accuracy and generalization.
+      <p>
+         Ensemble models are known for their ability to improve prediction accuracy, reduce over fitting, and handle complex relationships within the data.
+         They are commonly used in various machine learning tasks, including classification, regression, and anomaly detection. 
+      </p>
+      <h2 style="color:rgb(51, 0, 128); padding-top:10px;">
+         Example
+       </h2>
+        <p> 
+          A real-life example of an ensemble model is the Netflix movie recommendation system. Netflix uses an ensemble of machine learning models to provide personalized movie recommendations to its users.
+          The ensemble model combines the predictions of various individual models to make accurate and diverse recommendations.
+          The ensemble model in Netflix's recommendation system helps to overcome the limitations of individual models and provides a more accurate and diverse set of recommendations.
+          By combining multiple modeling techniques, it captures different aspects of user preferences and produces personalized suggestions that match users' tastes and preferences more effectively.
+       </p>
+    </div> 
+  </div> 
+
+ <!-- /* Card */ -->
+  <div class="card">
+   <div class="content">
+      <h3 style="color:rgb(62, 11, 203); padding-top:10px;"> Data Description</h3>
+      <p> The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.</p>
+      <table>
+        <tr>
+         <th>Domain</th>
+         <th>Data Set Characteristics</th>
+         <th>Area</th>
+         <th>Number of Instances </th>
+         <th>Real Number of Attributes </th>
+         <th>Date Donated </th>
+        </tr>
+       <tr>
+          <td>Banking</td>
+          <td> Multivariate</td>
+          <td> Business</td>
+          <td>41188</td>
+          <td> 20</td>
+          <td>20-12-02-14</td>
+        </tr>
+                
+      </table> 
+   </div>
+  </div> 
+  <div class="card">
+    <div class="content">
+      <h4 style="color:rgb(47, 11, 115); padding-top:10px;"> Objective</h4>
+       <p>
+          <ol>
+            <li>The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).</li>
+            <li>I want to see which model is better for this bank data. If someone gives similar data in the future, I can select specific models instead of using all models</li>
+            <li>Business impact of bank </li>
+          </ol>
+       </p>
+    </div>
+  </div> 
+
+ 
+</body>
+</html>
+
+
